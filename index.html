@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Dhaka Mohila College: a college for women in Dhaka. Notices, programmes, campus and contact.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dhaka Mohila College</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Noto+Serif+Bengali:wght@500;700&family=Source+Serif+4:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="#top"><span class="mark" aria-hidden="true"></span>Dhaka Mohila College</a>
+    <nav aria-label="Main">
+      <a href="#notices">Notices</a><a href="#about">About</a><a href="#programmes">Programmes</a><a href="#campus">Campus</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap">
+    <p class="bn" lang="bn">ঢাকা মহিলা কলেজ</p>
+    <h1>Dhaka Mohila College</h1>
+    <p>A college for women in Dhaka, where students study, ask questions and graduate ready for university and work.</p>
+    <div class="cta">
+      <a class="btn fill" href="#notices">See admission notices</a>
+      <a class="btn ghost" href="#programmes">Browse programmes</a>
+    </div>
+    <div class="facts">
+      <div><b>Est. [year]</b><span>Add founding year</span></div>
+      <div><b>[0,000]</b><span>Add student count</span></div>
+      <div><b>[00]</b><span>Add teacher count</span></div>
+      <div><b>HSC &amp; Degree</b><span>Add your levels</span></div>
+    </div>
+  </div>
+</div>
+
+<section id="notices">
+  <div class="wrap">
+    <h2>Notice board</h2>
+    <p class="lede">Admission, exam and event updates. Filter by type.</p>
+    <div class="tabs" role="group" aria-label="Filter notices">
+      <button aria-pressed="true" data-f="all">All</button>
+      <button aria-pressed="false" data-f="Admission">Admission</button>
+      <button aria-pressed="false" data-f="Exam">Exam</button>
+      <button aria-pressed="false" data-f="Event">Event</button>
+    </div>
+    <ul class="notices" id="list">
+      <li data-t="Admission"><time>20 Oct 2026</time><a href="#contact">Sample: Class XI admission form fill-up begins</a><span class="tag">Admission</span></li>
+      <li data-t="Exam"><time>15 Oct 2026</time><a href="#contact">Sample: Half-yearly exam routine published</a><span class="tag">Exam</span></li>
+      <li data-t="Event"><time>08 Oct 2026</time><a href="#contact">Sample: Annual cultural programme registration</a><span class="tag">Event</span></li>
+      <li data-t="Exam"><time>01 Oct 2026</time><a href="#contact">Sample: Result of the pre-test examination</a><span class="tag">Exam</span></li>
+      <li data-t="Admission"><time>22 Sep 2026</time><a href="#contact">Sample: Stipend and fee waiver application</a><span class="tag">Admission</span></li>
+    </ul>
+    <p class="dim" style="margin-top:14px">These notices are samples. Replace them with real ones.</p>
+  </div>
+</section>
+
+<section id="about" class="alt">
+  <div class="wrap split">
+    <div>
+      <h2>About the college</h2>
+      <p>Dhaka Mohila College gives young women a place to learn with focus and confidence. Our teachers work with each student on her studies, her habits and her next step.</p>
+      <p>Classes run in Bangla and English. Students take part in debate, science fairs, sports and cultural events alongside their coursework.</p>
+      <p class="dim">Replace this text with the college’s official history and mission.</p>
+    </div>
+    <blockquote class="quote" style="margin:0">
+      “Write the principal’s message here. Two or three sentences to welcome new students and their families.”
+      <small>Principal, Dhaka Mohila College</small>
+    </blockquote>
+  </div>
+</section>
+
+<section id="programmes">
+  <div class="wrap">
+    <h2>Programmes</h2>
+    <p class="lede">Open a programme to see what it covers.</p>
+    <div class="prog">
+      <details open><summary>Science <span>HSC</span></summary><p>Physics, chemistry, biology and higher mathematics, with regular lab sessions. Suited to students aiming for medical, engineering or science degrees.</p></details>
+      <details><summary>Humanities <span>HSC</span></summary><p>History, economics, civics, Bangla and English literature. Builds writing and research skills for university and public service.</p></details>
+      <details><summary>Business Studies <span>HSC</span></summary><p>Accounting, finance, management and marketing. Prepares students for commerce degrees and business careers.</p></details>
+      <details><summary>Degree (Pass) <span>Undergraduate</span></summary><p>Three-year degree courses under the affiliated university. Confirm the exact subjects offered before publishing.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="campus" class="alt">
+  <div class="wrap">
+    <h2>Campus and student life</h2>
+    <p class="lede">Everything a student needs on one campus.</p>
+    <div class="grid">
+      <div><h3>Library</h3><p>Textbooks, reference works and a quiet reading room.</p></div>
+      <div><h3>Science labs</h3><p>Hands-on practical classes for physics, chemistry and biology.</p></div>
+      <div><h3>Computer lab</h3><p>ICT classes and supervised internet access.</p></div>
+      <div><h3>Clubs</h3><p>Debate, cultural, science and sports clubs run by students.</p></div>
+      <div><h3>Hostel</h3><p>Add details if the college provides residential facilities.</p></div>
+      <div><h3>Scholarships</h3><p>Merit and need-based stipends. Add the eligibility rules.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap split">
+    <div>
+      <h2>Contact the college</h2>
+      <p class="lede">Questions about admission, results or visits.</p>
+      <form id="f">
+        <label>Your name<input name="n" required autocomplete="name"></label>
+        <label>Phone or email<input name="c" required autocomplete="email"></label>
+        <label>Message<textarea name="m" required></textarea></label>
+        <button class="btn fill" type="submit">Send message</button>
+      </form>
+      <div class="ok" id="ok" role="status">Message ready. This demo form does not send data yet, so connect it to your email or admin system before launch.</div>
+    </div>
+    <dl>
+      <div><dt>Address</dt><dd>[Add full college address], Dhaka</dd></div>
+      <div><dt>Phone</dt><dd>[Add office phone]</dd></div>
+      <div><dt>Email</dt><dd>[Add official email]</dd></div>
+      <div><dt>Office hours</dt><dd>Sunday to Thursday, [add hours]</dd></div>
+    </dl>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Dhaka Mohila College. All rights reserved.</div></footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
